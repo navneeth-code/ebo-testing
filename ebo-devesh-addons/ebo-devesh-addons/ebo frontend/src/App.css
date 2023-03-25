@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* addons form css */
+
+.formDiv{
+  position: absolute;
+  padding: 20px;
+  top: 200px;
+  left: 10px;
+  width: 450px;
+  border: 2px solid;
+}
+
+.form{ 
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ flex-wrap: wrap;
+ width: 400px;
+ font-weight: bold;
+ overflow: hidden;
+ margin: auto;
+}
+
+.form input{
+ height:30px;
+}
+
+.Submit-button{
+  width: 150px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px;
+  background-color: rgb(106, 180, 180);
+  font-weight: bold;
+  text-transform: uppercase;
+ }
+ 
+ .Submit-button:hover{
+  background-color: darkcyan;
+ }
+
+ .img-selected{
+  width: 400px;
+ }
+ 
